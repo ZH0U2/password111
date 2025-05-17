@@ -1,0 +1,118 @@
+时间: 2025-05-17 17:42:27
+操作: 加密
+加密方式: RSA
+密钥: 12312
+输入内容:
+123456
+输出结果:
+dx8TYY2IxqI9rHTYVVhST7utuMv9vx5gg6LSQRKPYKVuPpLXmD3F5fzdJ0ipDwbf6JNy+TNkP50tVFGH+kVI+AQ0NGXOrue4Ec78TI766beK35BnXcvMAmhIvzW8nTF+JlqiNSEDIGN2kJqksCPTNP6SwwQyTb+JM/wsO3bg5fk=
+--------------------------------------------------
+时间: 2025-05-17 17:42:43
+操作: 加密
+加密方式: Base64
+密钥: 12312
+输入内容:
+123456
+输出结果:
+MTIzNDU2
+--------------------------------------------------
+时间: 2025-05-17 17:42:47
+操作: 加密
+加密方式: Base64
+密钥: 12312
+输入内容:
+123456ddada
+输出结果:
+MTIzNDU2ZGRhZGE=
+--------------------------------------------------
+时间: 2025-05-17 17:45:40
+操作: 加密
+加密方式: RSA
+输入内容:
+12345
+输出结果:
+HbFhu6ZTqid7ox8fCz672eNSn5x8hFKvVeC1T50+tjozVZ+Fflu8t3YwoZJtyUxaM9S5ncP1jMHZxn+zpSU9crFayUGxTqvbUBQRxGAorkIA4PmmRxT6Ni+qJUdRoxwI6DfMqK/moXolBi+pG0KCPh6yuD0gBSz3aifejk1w5EM=
+--------------------------------------------------
+时间: 2025-05-17 17:50:02
+操作: 加密
+加密方式: 文件加密(AES)
+密钥: iloveyouiloveyou
+输入内容:
+文件路径: C:/Users/Lenovo/Desktop/python实验课/encryption_tool_beautified/requirements.txt
+输出结果:
+保存路径: C:/Users/Lenovo/Desktop/python实验课/encryption_tool_beautified/result.txt
+--------------------------------------------------
+时间: 2025-05-17 17:50:24
+操作: 解密
+加密方式: 文件解密(AES)
+密钥: iloveyouiloveyou
+输入内容:
+文件路径: C:/Users/Lenovo/Desktop/python实验课/encryption_tool_beautified/result.txt
+输出结果:
+保存路径: C:/Users/Lenovo/Desktop/python实验课/encryption_tool_beautified/get.txt
+--------------------------------------------------
+[2025-05-17 17:55:20] Base64 - 加密
+密钥: 
+信息1: 输入文本: iloveyou
+信息2: 结果: aWxvdmV5b3U=
+----------------------------------------
+[2025-05-17 18:00:47] RSA私钥导出 - 导出
+密钥: 
+信息1: 路径: C:/Users/Lenovo/Desktop/python实验课/encryption_tool_beautified/1.pem
+----------------------------------------
+[2025-05-17 18:01:17] RSA公钥导出 - 导出
+密钥: 
+信息1: 路径: C:/Users/Lenovo/Desktop/python实验课/encryption_tool_beautified/2.pem
+----------------------------------------
+[2025-05-17 18:02:03] RSA私钥导入 - 导入
+密钥: 
+信息1: 路径: C:/Users/Lenovo/Desktop/python实验课/encryption_tool_beautified/1.pem
+----------------------------------------
+[2025-05-17 18:02:07] RSA公钥导入 - 导入
+密钥: 
+信息1: 路径: C:/Users/Lenovo/Desktop/python实验课/encryption_tool_beautified/2.pem
+----------------------------------------
+[2025-05-17 18:03:08] RSA - 加密
+密钥: 
+信息1: 输入文本: 12345
+信息2: 结果: lya++NSkHV8lpwrZ+AnsCt7RtTnnGdjzcXDeQ0l/yKH00N8/F6+fPerYId2nQi0xEm6bxWHnBOpML51WpzRbTZJNnub8n4jGcIg4TpNdW3NzqQHYHfPwG9nMsQ1g3TlJHz7O0EMMfqs89cQOI14wBxrOzPUijMLId0Q9kQgyd9g=
+----------------------------------------
+[2025-05-17 18:03:20] RSA - 解密
+密钥: 
+信息1: 输入文本: lya++NSkHV8lpwrZ+AnsCt7RtTnnGdjzcXDeQ0l/yKH00N8/F6+fPerYId2nQi0xEm6bxWHnBOpML51WpzRbTZJNnub8n4jGcIg4TpNdW3NzqQHYHfPwG9nMsQ1g3TlJHz7O0EMMfqs89cQOI14wBxrOzPUijMLId0Q9kQgyd9g=
+信息2: 结果: 12345
+----------------------------------------
+[2025-05-17 18:06:01] Base64 - 加密
+密钥: 
+ 输入文本: 123
+ 结果: MTIz
+----------------------------------------
+[2025-05-17 20:33:54] Base64 - 加密
+密钥: 
+ 输入文本: hello CCNU
+ 结果: aGVsbG8gQ0NOVQ==
+----------------------------------------
+[2025-05-17 20:37:13] Base64 - 解密
+密钥: 111111
+ 输入文本: aGVsbG8gQ0NOVQ==
+ 结果: hello CCNU
+----------------------------------------
+[2025-05-17 20:40:51] 凯撒密码 - 加密
+密钥: 3
+ 输入文本: hello CCNU
+ 结果: khoor#FFQX
+----------------------------------------
+[2025-05-17 20:47:33] 文件加密(DES) - 加密
+密钥: ccnuccnu
+ 文件路径: C:/Users/Lenovo/Desktop/python实验课/encryption_tool_beautified/requirements.txt
+ 保存路径: C:/Users/Lenovo/Desktop/python实验课/encryption_tool_beautified/1.txt
+----------------------------------------
+[2025-05-17 20:53:29] RSA私钥导出 - 导出
+密钥: 
+ 路径: C:/Users/Lenovo/Desktop/python实验课/encryption_tool_beautified/1.pem
+----------------------------------------
+[2025-05-17 20:53:41] RSA - 加密
+密钥: ccnuccnu
+ 输入文本: 123456
+ 结果: r/ZyvJTNwjhkpYd7iO4Ck9b0ozRwt6VagtKEbJT1XOVjFchi8QohCz2HA09JLdCshjUD8vVoKRBjdr8u5ESMy1XR8zZNzpl79xwLY6x+Ump7E/LPpIgwcrSNsM3ZT9m6HDjJgzlhlSDcyay75HMZJtPCpgmobotY3nMxIfts/II=
+----------------------------------------
